@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1001,
+    "name": "Turtle Rock",
+    "park": "Joshua Tree National Park",
+    "state": "California",
+    "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis porttitor massa imperdiet, euismod inceptos malesuada pellentesque dictumst diam accumsan euismod inceptos malesuada pellentesque dictumst diam accumsan.",
+    "imageName": "turtlerock",
+    "coordinates": {
+      "latitude": 34.011286,
+      "longitude": -116.166868
+    }
+  },
+  {
+    "id": 1002,
+    "name": "Silver Salmon Creek",
+    "park": "Lake Clark National Park and Preserve",
+    "state": "Alaska",
+    "description": "Orci commodo, viverra tellus nec, bibendum leo. Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget euismod vulputate, eros libero lorem malesuada.",
+    "imageName": "silversalmoncreek",
+    "coordinates": {
+      "latitude": 59.980167,
+      "longitude": -152.665167
+    }
+  },
+  {
+    "id": 1003,
+    "name": "Chilkoot Trail",
+    "park": "Klondike Gold Rush National Historical Park",
+    "state": "Alaska",
+    "description": "Eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget euismod vulputate, eros libero lorem malesuada elit, vitae imperdiet nisl mauris quis massa. Donec ac tempus ante.",
+    "imageName": "chilkoottrail",
+    "coordinates": {
+      "latitude": 59.980167,
+      "longitude": -135.334167
+    }
+  },
+  {
+    "id": 1004,
+    "name": "St. Mary Lake",
+    "park": "Glacier National Park",
+    "state": "Montana",
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
+    "imageName": "stmarylake",
+    "coordinates": {
+      "latitude": 48.694429,
+      "longitude": -113.477714
+    }
+  },
+  {
+    "id": 1005,
+    "name": "Twin Lakes",
+    "park": "Lake Clark National Park and Preserve",
+    "state": "Alaska",
+    "description": "Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.",
+    "imageName": "twinlakes",
+    "coordinates": {
+      "latitude": 60.641167,
+      "longitude": -153.469167
+    }
+  },
+  {
+    "id": 1006,
+    "name": "Lake McDonald",
+    "park": "Glacier National Park",
+    "state": "Montana",
+    "description": "Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris.",
+    "imageName": "lakemcdonald",
+    "coordinates": {
+      "latitude": 48.616667,
+      "longitude": -113.866667
+    }
+  }
+]

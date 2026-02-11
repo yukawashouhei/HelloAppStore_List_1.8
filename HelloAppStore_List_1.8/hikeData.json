@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "name": "Salmonberry Trail",
+    "distance": 6,
+    "difficulty": 3,
+    "observations": [
+      {
+        "distanceFromStart": 0,
+        "elevation": [
+          10,
+          200
+        ],
+        "pace": [
+          20,
+          50
+        ],
+        "heartRate": [
+          70,
+          120
+        ]
+      },
+      {
+        "distanceFromStart": 0.5,
+        "elevation": [
+          30,
+          250
+        ],
+        "pace": [
+          30,
+          60
+        ],
+        "heartRate": [
+          80,
+          130
+        ]
+      },
+      {
+        "distanceFromStart": 1,
+        "elevation": [
+          50,
+          300
+        ],
+        "pace": [
+          40,
+          70
+        ],
+        "heartRate": [
+          90,
+          140
+        ]
+      },
+      {
+        "distanceFromStart": 1.5,
+        "elevation": [
+          100,
+          350
+        ],
+        "pace": [
+          50,
+          80
+        ],
+        "heartRate": [
+          100,
+          150
+        ]
+      },
+      {
+        "distanceFromStart": 2,
+        "elevation": [
+          150,
+          400
+        ],
+        "pace": [
+          60,
+          90
+        ],
+        "heartRate": [
+          110,
+          160
+        ]
+      }
+    ]
+  }
+]
