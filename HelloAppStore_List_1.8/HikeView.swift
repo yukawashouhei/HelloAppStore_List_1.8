@@ -14,12 +14,9 @@ extension Animation {
     }
 }
 
-// 意図的なエラー: Viewプロトコルに準拠していない
-// Type 'HikeView' does not conform to protocol 'View'
 struct HikeView {
     var hike: Hike
-    // 意図的なエラー: @Stateではなく通常のBoolを使用
-    var showDetail = true
+    @State private var showDetail = true
 
     var content: some View {
         VStack {
@@ -38,7 +35,7 @@ struct HikeView {
 
                 Button {
                     withAnimation {
-                        // showDetail.toggle() // @Stateでないため変更できない
+                        showDetail.toggle()
                     }
                 } label: {
                     Label("Graph", systemImage: "chevron.right.circle")
@@ -48,15 +45,10 @@ struct HikeView {
                         .scaleEffect(showDetail ? 1.5 : 1)
                         .padding()
                 }
-                // 意図的なエラー: BoolをBinding<Bool>に変換できない
-                // Cannot convert value of type 'Bool' to expected argument type 'Binding<Bool>'
-                .sheet(isPresented: showDetail) {
-                    Text("Detail Sheet")
-                }
             }
 
             if showDetail {
-                HikeDetail(hike: hike)
+                HikeDetail(hike: hike, showDetail: showDetail)
                     .transition(.moveAndFade)
             }
         }
@@ -65,6 +57,8 @@ struct HikeView {
 
 struct HikeDetail: View {
     var hike: Hike
+    var showDetail: Bool
+    
     @State private var dataToShow = \Hike.Observation.elevation
 
     var buttons = [
@@ -92,6 +86,10 @@ struct HikeDetail: View {
                     }
                 }
             }
+            
+            Divider()
+            
+            Toggle("詳細を表示", isOn: showDetail)
         }
     }
 }
@@ -108,7 +106,6 @@ extension AnyTransition {
 #Preview {
     let hikes = loadHikes()
     return VStack(spacing: 40) {
-        // 意図的なエラー: HikeViewはViewプロトコルに準拠していない
         HikeView(hike: hikes[0])
             .content
             .padding()

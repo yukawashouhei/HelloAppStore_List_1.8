@@ -39,9 +39,8 @@ struct LandmarkDetail: View {
                     Divider()
                     
                     if let hike = hikes.first {
-                        // 意図的なエラー: HikeViewはViewプロトコルに準拠していない
-                        // Type 'HikeView' does not conform to protocol 'View'
-                        HikeView(hike: hike)
+                        let hikeView: View = HikeView(hike: hike)
+                        hikeView
                     }
                 }
                 .padding()
