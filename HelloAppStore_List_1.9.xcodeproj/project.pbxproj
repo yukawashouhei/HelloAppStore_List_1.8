@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7D611DFC2F3C40760047D2B8 /* HelloAppStore_List_1.8 */ = {
+		7D611DFC2F3C40760047D2B8 /* HelloAppStore_List_1.9 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloAppStore_List_1.8;
+			path = HelloAppStore_List_1.9;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		7D611DF12F3C40760047D2B8 = {
 			isa = PBXGroup;
 			children = (
-				7D611DFC2F3C40760047D2B8 /* HelloAppStore_List_1.8 */,
+				7D611DFC2F3C40760047D2B8 /* HelloAppStore_List_1.9 */,
 				7D611DFB2F3C40760047D2B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7D611DFC2F3C40760047D2B8 /* HelloAppStore_List_1.8 */,
+				7D611DFC2F3C40760047D2B8 /* HelloAppStore_List_1.9 */,
 			);
 			name = HelloAppStore_List_1.8;
 			packageProductDependencies = (
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7D611DF52F3C40760047D2B8 /* Build configuration list for PBXProject "HelloAppStore_List_1.8" */;
+			buildConfigurationList = 7D611DF52F3C40760047D2B8 /* Build configuration list for PBXProject "HelloAppStore_List_1.9" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D611DF52F3C40760047D2B8 /* Build configuration list for PBXProject "HelloAppStore_List_1.8" */ = {
+		7D611DF52F3C40760047D2B8 /* Build configuration list for PBXProject "HelloAppStore_List_1.9" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D611E032F3C40770047D2B8 /* Debug */,

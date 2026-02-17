@@ -1,6 +1,6 @@
 //
 //  LandmarkDetail.swift
-//  HelloAppStore_List_1.8
+//  HelloAppStore_List_1.9
 //
 //
 
@@ -39,8 +39,7 @@ struct LandmarkDetail: View {
                     Divider()
                     
                     if let hike = hikes.first {
-                        let hikeView: View = HikeView(hike: hike)
-                        hikeView
+                        HikeView(hike: hike).content
                     }
                 }
                 .padding()

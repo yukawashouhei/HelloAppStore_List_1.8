@@ -1,6 +1,6 @@
 //
 //  HikeView.swift
-//  HelloAppStore_List_1.8
+//  HelloAppStore_List_1.9
 //
 //
 
@@ -48,7 +48,7 @@ struct HikeView {
             }
 
             if showDetail {
-                HikeDetail(hike: hike, showDetail: showDetail)
+                HikeDetail(hike: hike, showDetail: $showDetail)
                     .transition(.moveAndFade)
             }
         }
@@ -57,7 +57,7 @@ struct HikeView {
 
 struct HikeDetail: View {
     var hike: Hike
-    var showDetail: Bool
+    @Binding var showDetail: Bool
     
     @State private var dataToShow = \Hike.Observation.elevation
 
@@ -89,7 +89,7 @@ struct HikeDetail: View {
             
             Divider()
             
-            Toggle("詳細を表示", isOn: showDetail)
+            Toggle("詳細を表示", isOn: $showDetail)
         }
     }
 }
